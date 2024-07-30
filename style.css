@@ -115,7 +115,7 @@ strong {
   align-items: center;
   justify-content: flex-end;
   flex-direction: column;
-  background-image: url("/assets/banner_background.png");
+  background-image: url("assets/banner_background.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -307,7 +307,7 @@ strong {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  background-image: url("/assets/rodape_background.svg");
+  background-image: url("assets/rodape_background.svg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
