@@ -1,0 +1,463 @@
+body,
+html {
+    background-color: #E7E7E7;
+    font-family: 'Times New Roman', Times, serif;
+    color: #275831;
+    width: 100%;
+    min-height: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.brand {
+    font-size: 5.625rem;
+    color: #217D34;
+}
+
+.cabecalho {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.dummy {
+    width: 10%;
+}
+
+.cabecalho-lista {
+    display: inherit;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    width: 60%;
+}
+
+
+.cabecalho-menu__checkbox {
+    display: none;
+}
+
+.menu-toggle {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 2.67rem;
+    height: 1.73rem;
+    padding: 3em 2em;
+    margin-left: 12em;
+}
+
+.menu-toggle .bar {
+    height: 0.4rem;
+    width: 100%;
+    border-radius: 10em;
+    background-color: #275831;
+    transition: all 300ms ease-in-out;
+}
+
+.menu-toggle:hover {
+    cursor: pointer;
+}
+
+.x:nth-of-type(1) {
+    transition: all 300ms ease-in-out;
+    transform: rotate(45deg);
+    transform-origin: top left;
+    width: 2.9rem;
+}
+
+.x:nth-of-type(2) {
+    transition: all 300ms ease-in-out;
+    transform-origin: center;
+    width: 0;
+}
+
+.x:nth-of-type(3) {
+    transition: all 300ms ease-in-out;
+    transform: rotate(-45deg);
+    transform-origin: bottom left;
+    width: 2.875rem;
+}
+
+.previnescroll {
+    position: fixed;
+}
+
+.cabecalho-menu {
+    display: none;
+    max-height: 0;
+    list-style-type: none;
+    padding-left: 3.75em;
+    font-size: 4rem;
+    width: 100%;
+    transition: max-height 500ms;
+}
+
+.cabecalho-menu__checkbox:checked~.cabecalho-menu {
+    display: flex;
+    flex-direction: column;
+    max-height: 100vh;
+}
+
+.cabecalho-lista__item {
+    font-size: 1.5rem;
+    margin-left: 2.5em;
+}
+
+.cabecalho-menu__lista-item {
+    padding-top: 1.5em;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 130vh;
+}
+
+.banner__nome,
+.banner__quemsomos {
+    position: absolute;
+    color: #275831;
+    transform: rotate(270deg);
+    left: 92%;
+    font-size: 1.5rem;
+    text-wrap: nowrap;
+}
+
+.banner__quemsomos {
+    color: #275831;
+    transform: rotate(270deg);
+    left: 92%;
+    font-size: 1.125rem;
+    text-wrap: nowrap;
+    align-self: center;
+}
+
+.banner__imagem {
+    display: inherit;
+    background-image: url('assets/banner_background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    align-items: center;
+    width: 75%;
+    height: 100%;
+}
+
+.banner__imagem-texto {
+    font-size: 4rem;
+    text-align: right;
+    line-height: 50px;
+    width: 30%;
+}
+
+.align1 {
+    margin-right: 1em;
+}
+
+.align2 {
+    margin-right: 0.5em;
+}
+
+.align3 {
+    margin-right: 0.7em;
+}
+
+.banner__texto {
+    font-size: 3rem;
+    align-self: flex-start;
+    justify-self: center;
+    /* font-size: 3rem;
+    text-align: left;
+    color: #000000;
+    align-self: flex-start;
+    margin: 0em 0em 7.5em 2em; */
+}
+
+.banner-frases__texto {
+    font-size: 4rem;
+    text-align: left;
+    color: #000000;
+    width: 40%;
+    padding-top: 4em;
+    margin-bottom: 4em;
+    margin-left: 3em;
+}
+
+.banner-frases__texto-secundario {
+    font-size: 1.8rem;
+    color: #000000;
+    width: 100%;
+    margin-left: 5em;
+}
+
+.banner__imagem-principal {
+    width: 100%;
+}
+
+.banner__imagens-principais {
+    height: 36, 8125rem;
+    width: 100%;
+}
+
+.banner__imagens-secundarias {
+    display: inherit;
+    flex-direction: row;
+    width: 100%;
+}
+
+.banner__imagem-secundaria {
+    width: 50%;
+}
+
+.banner-frases {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.banner-frases__circulo {
+    height: 580px;
+    width: 580px;
+    background-color: #275831;
+    border-radius: 50%;
+    display: inline-block;
+    color: white;
+    font-size: 4rem;
+    position: relative;
+    margin-left: auto;
+    margin-right: 1em;
+}
+
+.banner-frases__circulo-texto {
+    position: absolute;
+    text-align: center;
+    line-height: 100%;
+    top: 30%;
+    left: 23%;
+    width: 50%;
+}
+
+.banner__whatsapp-itens,
+.banner-servicos__whatsapp-itens {
+    display: flex;
+    align-items: center;
+    color: #000000;
+    background-color: transparent;
+    border: 0.125rem solid #275831;
+    border-radius: 7.5rem;
+    margin-bottom: 7.5em;
+    margin-top: 1.7em;
+}
+
+.banner__whatsapp-itens__texto,
+.banner-servicos__whatsapp-itens__texto {
+    font-size: 1.275rem;
+    text-align: center;
+    padding: 1.25rem 2.5rem;
+    line-height: 2.2rem;
+}
+
+.whatsapp-itens__botao {
+    margin-right: 2em;
+}
+
+.banner__whatsapp-itens:hover {
+    cursor: pointer;
+    background-color: #275831;
+    color: #D9D9D9;
+    transition: color 500ms linear;
+    transition: background-color 500ms linear;
+}
+
+.banner__whatsapp-itens:hover * {
+    color: #D9D9D9;
+    fill: #D9D9D9;
+}
+
+.whatsapp-itens__botao:hover {
+    cursor: pointer;
+    stroke: #E5E5E5;
+    transition: fill 500ms linear;
+}
+
+.banner-servicos__whatsapp-itens:hover {
+    cursor: pointer;
+    background-color: #275831;
+    color: #D9D9D9;
+    transition: color 500ms linear;
+    transition: background-color 500ms linear;
+}
+
+.banner-servicos {
+    color: #000000;
+    font-size: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 2em 0em 2em 8em;
+    margin-top: 2em;
+}
+
+.banner-servicos__item {
+    display: inherit;
+    flex-direction: column;
+    margin: 0em 5em 4em 0em;
+    width: 40%;
+}
+
+.banner-servicos__construcao {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 85%;
+    background-color: #275831;
+    color: #E5E5E5;
+    padding: 2em 3em;
+    border-radius: 65px;
+    margin-bottom: 5em;
+}
+
+.banner-servicos__item-titulo {
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+    width: 100%;
+}
+
+.banner-servicos__orcamento,
+.faleconosco__esquerda-enviar {
+    border: #275831 3px solid;
+    border-radius: 50px;
+    padding: 0.5em 1em;
+    font-size: 2.25rem;
+    justify-self: flex-end;
+    align-self: flex-end;
+}
+
+.faleconosco__esquerda-enviar {
+    margin-bottom: 3em;
+}
+
+.rodape__contato {
+    display: flex;
+    flex-direction: column;
+    background-color: #275831;
+    background-image: url('/assets/rodape.svg');
+    background-repeat: no-repeat;
+    background-position: right;
+    color: white;
+    height: 100vh;
+}
+
+.rodape__contato-texto {
+    font-size: 4rem;
+    margin-right: 50%;
+    line-height: 75px;
+    margin: 1.7em 0em 1em 2em;
+}
+
+.rodape__contato-email,
+.contato__email {
+    font-size: 2.25rem;
+    color: #275831;
+    width: 35%;
+    border: none;
+    height: 5, 625rem;
+    border-radius: 5rem;
+    margin: 1em 0em 7em 3.5em;
+    padding-left: 2em;
+    background-color: #E7E7E7;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.rodape__contato-info {
+    font-size: 1.5rem;
+    margin-left: 5em;
+    margin-bottom: 1em;
+    line-height: 2, 1875rem;
+}
+
+.faleconosco {
+    display: flex;
+
+}
+
+.faleconosco__direita {
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    background-color: #275831;
+    justify-content: space-evenly;
+    width: 50%;
+    color: #E7E7E7;
+    border-radius: 100px 0px 0px 0px;
+}
+
+.faleconosco__direita-texto {
+    font-size: 4rem;
+    margin: 2em 0em 2em 2em;
+    line-height: 4.375px;
+}
+
+.faleconosco__direita-info {
+    font-size: 4rem;
+    margin: 2em 0em 3em 5.1em;
+}
+
+.faleconosco__direita-logo {
+    height: 100%;
+}
+
+.faleconosco__esquerda {
+    display: inherit;
+    flex-direction: column;
+    width: 50%;
+    font-size: 4rem;
+    padding-left: 2em;
+    padding-right: 3em;
+}
+
+.faleconosco__esquerda-email,
+.faleconosco__esquerda-motivo {
+    font-size: 2.25rem;
+    color: #275831;
+    width: 35%;
+    border: none;
+    border-color: transparent;
+    height: 90px;
+    border-radius: 80px;
+    padding-left: 2em;
+    background-color: #D9D9D9;
+    width: auto;
+    margin-bottom: 1.5em;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.faleconosco__esquerda-texto {
+    margin-bottom: 1.5em;
+}
+
+.faleconosco__esquerda-motivo {
+    height: 35%;
+    text-align: start;
+    padding-right: 2em;
+    padding-top: 1em;
+    font-size: 2.25rem;
+    resize: none;
+}
+
+@media (min-resolution: 1.25dppx) {
+    
+}

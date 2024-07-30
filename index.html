@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vitor Machado</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header class="cabecalho">
+      <div class="dummy"></div>
+      <ul class="cabecalho-lista">
+        <li class="cabecalho-lista__item">
+          <p class="cabecalho-item__text">Design estratégico</p>
+        </li>
+        <p class="cabecalho-lista__item">|</p>
+        <li class="cabecalho-lista__item">
+          <p class="cabecalho-item__text">Gestão de marcas</p>
+        </li>
+        <p class="cabecalho-lista__item">|</p>
+        <li class="cabecalho-lista__item">
+          <p class="cabecalho-item__text">Identidade visual</p>
+        </li>
+      </ul>
+
+      <input type="checkbox" id="menu" class="cabecalho-menu__checkbox" />
+      <label for="menu" class="cabecalho-menu__rotulo">
+        <a class="menu-toggle">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </a>
+      </label>
+      <div class="cabecalho-menu">
+        <ul class="cabecalho-menu__lista">
+          <li class="cabecalho-menu__lista-item">
+            <a href="/index.html">Home</a>
+          </li>
+          <li class="cabecalho-menu__lista-item">
+            <a href="/pages/cases.html">Cases</a>
+          </li>
+          <li class="cabecalho-menu__lista-item">
+            <a href="/pages/servicos.html">Serviços</a>
+          </li>
+          <li class="cabecalho-menu__lista-item">
+            <a href="/pages/contato.html">Contato</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <section class="banner-principal">
+      <h1 class="banner-principal__texto">
+        <span class="index__align1">Coloque sua<br /></span>
+        <strong class="marca">marca</strong><br />
+        <span class="index__align2">em uma posição<br /></span>
+        <span class="index__align3">de destaque</span>
+      </h1>
+      <p class="banner-principal__nome">Vitor Machado</p>
+    </section>
+
+    <section class="whatsapp">
+      <div class="whatsapp-container">
+        <p class="whatsapp__texto">
+          <strong>Entre em contato</strong> e entenda como<br />
+          um design estratégico pode intervir<br />
+          no seu negócio!
+        </p>
+
+        <svg class="whatsapp__botao" width="56" height="44" viewBox="0 0 56 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M3.02085 2.05678L53.2484 21.6506L3.0208 41.2445L15.3397 22.1934L15.6909 21.6504L15.3397 21.1074L3.02085 2.05678Z" stroke="#275831" stroke-width="2"/>
+          <path d="M54 21.6504L15 21.6504" stroke="#275831" stroke-width="2"/>
+        </svg>
+      </div>
+    </section>
+
+    <section class="quemsomos">
+      <h2 class="quemsomos__texto">
+        Temos estratégia em nossa <br />
+        essência e trabalhamos <br />
+        incessantemente para criar <br />
+        soluções que gerem <br />
+        resultados reais.
+        <p class="quemsomos__whoarewe">Quem somos?</p>
+      </h2>
+    </section>
+
+    <div class="portifolio"></div>
+
+    <section class="apresentacao">
+      <h2 class="apresentacao__texto">
+        Nossos projetos vão além <br />
+        do produto final, buscamos <br />
+        através de metodologias <br />
+        eficientes interferir em <br />
+        todo o ecossistema do seu <br> negócio!
+      </h2>
+      <div class="apresentacao__circulo">
+        <p class="apresentacao__circulo-texto">
+          Trabalhamos <br> 
+          gerindo <br>
+          e gerando <br>
+          valor
+        </p>
+      </div>
+    </section>
+
+    <footer class="rodape">
+      <h3 class="rodape__texto">
+        Comece a planejar seu <br />
+        sucesso com a gente!
+      </h3>
+      <input
+        type="text"
+        id=""
+        class="rodape__email"
+        placeholder="Deixe seu contato"
+      />
+      <button class="rodape__enviar">
+        Enviar
+      </button>
+      <p class="rodape__info">
+        vitor.machado.dg@gmail.com <br /><br />
+        (41) 99978-3789 <br /><br />
+        R. Fagundes Varela, 1023 - Jd. Social <br>
+        Curitiba / PR
+      </p>
+    </footer>
+  </body>
+  <script src="/src/script.js"></script>
+</html>
